@@ -40,8 +40,8 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    int num_threads = atoi(argv[1);
-    int num_needles = atoi(argv[2);
+    int num_threads = atoi(argv[1]);
+    int num_needles = atoi(argv[2]);
 
     if (num_threads < 1 || num_threads > MAX_THREADS || num_needles < 1) {
         printf("Por favor, ingresa un número válido de hilos (1-%d) y agujas (>0).\n", MAX_THREADS);
