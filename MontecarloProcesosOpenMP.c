@@ -32,8 +32,8 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    int num_needles = atoi(argv[1);
-    int num_processes = atoi(argv[2);
+    int num_needles = atoi(argv[1]);
+    int num_processes = atoi(argv[2]);
 
     // Inicializar la semilla para la generación de números aleatorios
     srand(time(NULL));
