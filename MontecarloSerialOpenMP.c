@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    int num_needles = atoi(argv[1);
+    int num_needles = atoi(argv[1]);
     int num_threads = omp_get_max_threads();
 
     srand(time(NULL));
