@@ -29,8 +29,8 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    int total_points = atoi(argv[1);
-    int num_processes = atoi(argv[2);
+    int total_points = atoi(argv[1]);
+    int num_processes = atoi(argv[2]);
 
     if (total_points > MAX_POINTS) {
         printf("El número de puntos no debe exceder %d.\n", MAX_POINTS);
